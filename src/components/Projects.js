@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useProjectsValue, useSelectedProjectValue } from "../../context";
+import { useProjectsValue, useSelectedProjectValue } from "../context";
 import IndividualProject from "./IndividualProject";
 
 export const Projects = ({ activeValue = true }) => {
@@ -24,11 +24,11 @@ export const Projects = ({ activeValue = true }) => {
           setSelectedProject(project.projectId);
         }}
         onKeyDown={() => {
-            setActive(project.projectId);
-            setSelectedProject(project.projectId);
-          }}
+          setActive(project.projectId);
+          setSelectedProject(project.projectId);
+        }}
       >
-        <IndividualProject project={project}/>
+        <IndividualProject project={project} />
       </li>
     ))
   );
