@@ -11,7 +11,6 @@ export const Tasks = () => {
   const { tasks } = useTasks(selectedProject);
   let projectName = "";
 
-  console.log(tasks);
   if (projects && selectedProject && !collatedTasksExist(selectedProject)) {
     projectName = getTitle(projects, selectedProject).name;
   }
