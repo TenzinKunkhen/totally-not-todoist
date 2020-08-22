@@ -590,6 +590,36 @@ header {
   font-size: 14px;
   margin-left: 15px;
 }
+/* Task Date
+  ============================================ */
+.task-date {
+  @include box-overlay();
+  background-color: #fff;
+  width: 200px;
+  right: 0;
+
+  &__list li {
+    @include task-item();
+
+    span:first-of-type {
+      margin-right: 10px;
+
+      svg {
+        fill: grey;
+      }
+    }
+  }
+}
+/* Project Overlay
+  ============================================ */
+.project-overlay {
+  @include box-overlay();
+  background-color: white;
+
+  &__list li {
+    @include task-item();
+  }
+}
 /* Add project
   ============================================ */
 .add-project {
