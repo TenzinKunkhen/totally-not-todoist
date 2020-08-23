@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a0a2a5f9c7694edb48076b9ccd323a42",
+    "revision": "04cee0048fcd0a44809852573eedb5b5",
     "url": "/totally-not-todoist/index.html"
   },
   {
-    "revision": "d9b6cd98427b728e5d07",
+    "revision": "c68ab8d04ef1aa2dd366",
     "url": "/totally-not-todoist/static/css/main.a8b7cbcd.chunk.css"
   },
   {
-    "revision": "30e173de775b5a0da2b0",
-    "url": "/totally-not-todoist/static/js/2.bd3b23e0.chunk.js"
+    "revision": "9288f71abc98be90219f",
+    "url": "/totally-not-todoist/static/js/2.8b8e6bb4.chunk.js"
   },
   {
     "revision": "052157e0581e32a2b8fa8f7f1414d257",
-    "url": "/totally-not-todoist/static/js/2.bd3b23e0.chunk.js.LICENSE.txt"
+    "url": "/totally-not-todoist/static/js/2.8b8e6bb4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d9b6cd98427b728e5d07",
-    "url": "/totally-not-todoist/static/js/main.c2773fdb.chunk.js"
+    "revision": "c68ab8d04ef1aa2dd366",
+    "url": "/totally-not-todoist/static/js/main.6564e12f.chunk.js"
   },
   {
     "revision": "fceefa8509dcfbe58c75",
