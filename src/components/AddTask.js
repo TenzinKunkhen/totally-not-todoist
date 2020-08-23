@@ -71,7 +71,7 @@ export const AddTask = ({
           {showQuickAddTask && (
             <>
               <div datatest-id="quick-add-task">
-                <h2 className="quick-add-task">Quick Add Task</h2>
+                <h2 className="header">Quick Add Task</h2>
                 <span
                   className="add-task__cancel-x"
                   data-testid="add-task-quick-cancel"
@@ -107,7 +107,11 @@ export const AddTask = ({
             type="button"
             className="add-task__submit"
             data-testid="add-task"
-            onClick={() => addTask()}
+            onClick={() =>
+              showQuickAddTask
+                ? addTask() && setShowQuickAddTask(false)
+                : addTask()
+            }
           >
             Add task
           </button>
