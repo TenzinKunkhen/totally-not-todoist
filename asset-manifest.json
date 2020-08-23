@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/totally-not-todoist/static/css/main.a8b7cbcd.chunk.css",
+    "main.js": "/totally-not-todoist/static/js/main.c2773fdb.chunk.js",
+    "main.js.map": "/totally-not-todoist/static/js/main.c2773fdb.chunk.js.map",
+    "runtime-main.js": "/totally-not-todoist/static/js/runtime-main.9024e078.js",
+    "runtime-main.js.map": "/totally-not-todoist/static/js/runtime-main.9024e078.js.map",
+    "static/js/2.bd3b23e0.chunk.js": "/totally-not-todoist/static/js/2.bd3b23e0.chunk.js",
+    "static/js/2.bd3b23e0.chunk.js.map": "/totally-not-todoist/static/js/2.bd3b23e0.chunk.js.map",
+    "index.html": "/totally-not-todoist/index.html",
+    "precache-manifest.f950d275cf1a443d4ae2d86155e36960.js": "/totally-not-todoist/precache-manifest.f950d275cf1a443d4ae2d86155e36960.js",
+    "service-worker.js": "/totally-not-todoist/service-worker.js",
+    "static/css/main.a8b7cbcd.chunk.css.map": "/totally-not-todoist/static/css/main.a8b7cbcd.chunk.css.map",
+    "static/js/2.bd3b23e0.chunk.js.LICENSE.txt": "/totally-not-todoist/static/js/2.bd3b23e0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9024e078.js",
+    "static/js/2.bd3b23e0.chunk.js",
+    "static/css/main.a8b7cbcd.chunk.css",
+    "static/js/main.c2773fdb.chunk.js"
+  ]
+}
