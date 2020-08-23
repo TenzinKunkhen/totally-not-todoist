@@ -420,7 +420,7 @@ header {
     }
 
     button {
-      @include btn(50px);
+      @include btn('50px');
     }
     span {
       @include cancel();
@@ -569,7 +569,7 @@ header {
     @include cancel();
   }
   &__submit {
-    @include btn(90px);
+    @include btn('90px');
   }
 }
 .add-task__shallow,
@@ -640,7 +640,7 @@ header {
     padding-right: 10px;
   }
   &__submit {
-    @include btn(100px);
+    @include btn('100px');
   }
 
   &__cancel {
